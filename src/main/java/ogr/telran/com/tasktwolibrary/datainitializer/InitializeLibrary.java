@@ -33,7 +33,7 @@ public class InitializeLibrary implements CommandLineRunner {
                 new Book("Война и мир", 1863, 2),
                 new Book("Мцыри", 1838, 3),
                 new Book("Евгений Онегин", 1833, 4),
-                new Book("Леонель Месси", 1024, 5)
+                new Book("Леонель Месси", 1024, 1)
         );
 
         authorRepository.saveAll(authors);
